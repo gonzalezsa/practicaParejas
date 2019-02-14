@@ -3,8 +3,8 @@ package examenbecas;
 public class Beca {
 
 	private String dnialumno;
-	private double renta;
-	private int puntuacion;
+	protected double renta;
+	protected int puntuacion;
 		
 	public Beca(String dnialumno, double renta) {
 		super();
