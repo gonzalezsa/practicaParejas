@@ -2,6 +2,7 @@ package examenbecas;
 import java.util.*;
 
 public class Principal {
+	// Prueba de fallo
 	static final int MAXBECAS=20;
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
