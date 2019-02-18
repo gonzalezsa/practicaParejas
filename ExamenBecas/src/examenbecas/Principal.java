@@ -46,7 +46,7 @@ public class Principal {
 				menu=sc.nextInt();
 				sc.nextLine();
 		}while(menu==1);
-		
+		//USU2 AÑADE CODIGO PARA QUE SALTE EL ERROR
 		System.out.println("\nDamos puntuación a las becas*************");
 		
 		for(int cont=0; cont < becas.size(); cont++){
