@@ -12,6 +12,13 @@ public class Beca {
 		this.renta = renta;
 	}
 
+	public Beca(String dnialumno) {
+		super();
+		this.dnialumno = dnialumno;
+	}
+
+
+
 	public String getDnialumno() {
 		return dnialumno;
 	}
