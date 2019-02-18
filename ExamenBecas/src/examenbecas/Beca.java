@@ -40,6 +40,22 @@ public class Beca {
 	}
 	
 	
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		Beca other = (Beca) obj;
+		if (dnialumno == null) {
+			if (other.dnialumno != null)
+				return false;
+		} else if (!dnialumno.equals(other.dnialumno))
+			return false;
+		return true;
+	}
+
 	public int getPuntuacion(){
 		return puntuacion;
 	}
